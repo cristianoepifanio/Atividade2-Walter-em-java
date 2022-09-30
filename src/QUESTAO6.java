@@ -5,6 +5,9 @@ public class QUESTAO6 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("QUESTÃO 6");
         System.out.println(" Utilizando estrutura de repetição (enquanto), exiba os números de 1 até 100.");
+        System.out.println("");
+        System.out.println("RESPOSTA");
+        //Resposta
         int i = 1;
         while (i<=100){
             System.out.print(i+", ");

@@ -6,6 +6,9 @@ public class QUESTAO1 {
         System.out.println("QUESTÃO 1");
         System.out.println(" Escrever um algoritmo que leia o nome de um aluno e as notas das três provas que ele obteve no semestre.");
         System.out.println(" No final informar o nome do aluno e a sua média (aritmética). Caso a média seja inferior a 7, ele está reprovado.");
+        System.out.println("");
+        System.out.println("RESPOSTA");
+        //Resposta
         System.out.println("Digite a primeira nota: ");
         float nota1 = scanner.nextFloat();
         System.out.println("Digite a segunda nota: ");

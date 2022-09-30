@@ -6,6 +6,9 @@ public class QUESTAO5 {
         System.out.println("QUESTÃO 5");
         System.out.println(" Escrever um algoritmo para determinar o consumo médio de um automóvel sendo fornecida");
         System.out.println("a distância total percorrida pelo automóvel e o total de combustível gasto.");
+        System.out.println("");
+        System.out.println("RESPOSTA");
+        //Resposta
         System.out.println("Qual a kilometragem rodada?");
         float kilometragem = scanner.nextFloat();
         System.out.println("Quanto foi gasto de gasolina?");

@@ -6,6 +6,9 @@ public class QUESTAO2 {
         System.out.println("QUESTÃO 2");
         System.out.println("Faça um algoritmo que receba o número do mês e mostre o mês correspondente.");
         System.out.println("Valide mês inválido.");
+        System.out.println("");
+        System.out.println("RESPOSTA");
+        //Resposta
         System.out.println("Digite o número do mês: ");
         int mes = scanner.nextInt();
         switch (mes) {

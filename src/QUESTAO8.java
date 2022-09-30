@@ -5,6 +5,9 @@ public class QUESTAO8 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("QUESTÃO 8");
         System.out.println(" Utilizando estrutura de repetição (para), receba um valor e imprima sua tabuada de multiplicação. ");
+        System.out.println("");
+        System.out.println("RESPOSTA");
+        //Resposta
         System.out.println("Digite um número: ");
         int n = scanner.nextInt();
         System.out.println("A tabuada de "+n+" é: ");

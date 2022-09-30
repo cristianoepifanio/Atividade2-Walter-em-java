@@ -7,14 +7,15 @@ public class QUESTAO10 {
         System.out.println(" Escreva um algoritmo para simular o caixa de uma empresa. O algoritmo ao ser executado ");
         System.out.println("deve oferecer duas opções: 1–Debitar,2–Creditar, 3–Consultar Saldo e 9–Sair.");
         System.out.println("Não se deve permitir que o saldo fique negativo.");
-
+        System.out.println("");
+        System.out.println("RESPOSTA");
         //Resposta
         int opcao = 0;
         float saldo = 0;
         float valor = 0;
 
         while (opcao!=4) {
-            System.out.println("Escolha uma operação");
+            System.out.println("Escolha uma operação: ");
             opcao = scanner.nextInt();
 
             switch (opcao){

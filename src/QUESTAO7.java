@@ -5,6 +5,9 @@ public class QUESTAO7 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("QUESTÃO 7");
         System.out.println("Utilizando estrutura de repetição (enquanto), receba n números e ao final exiba a média.");
+        System.out.println("");
+        System.out.println("RESPOSTA");
+        //Resposta
         System.out.println("Quantas notas?");
         int n = scanner.nextInt();
         int i = 1;
