@@ -10,10 +10,38 @@ public class QUESTAO10 {
 
         //Resposta
         int opcao = 0;
+        float saldo = 0;
+        float valor = 0;
+
         while (opcao!=4) {
             System.out.println("Escolha uma operação");
             opcao = scanner.nextInt();
-            System.out.println(opcao);
+
+            switch (opcao){
+                case 1:
+                    System.out.println("Digite um valor: ");
+                    valor = scanner.nextFloat();
+                    if (valor>saldo){
+                        System.out.println("Saldo insuficiente");
+                    } else {
+                        saldo -= valor;
+                    }
+                    break;
+                case 2:
+                    System.out.println("Digite um valor: ");
+                    valor = scanner.nextFloat();
+                    saldo += valor;
+                    break;
+                case 3:
+                    System.out.println("Saldo atual de "+saldo+" R$.");
+                    break;
+                case 4:
+                    System.out.println("SAIR");
+                    break;
+                default:
+                    System.out.println("operação inválida");
+
+            }
         }
     }
 }
