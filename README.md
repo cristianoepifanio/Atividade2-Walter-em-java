@@ -7,35 +7,27 @@ Para isso, eu "traduzi" algumas questões de lógica de programação que estava
 8 – Utilizando estrutura de repetição (para), receba um valor e imprima sua tabuada de multiplicação. 
 
 *NO VISUALG* 
-
+<pre>
 Var
-
 // Seção de Declarações das variáveis 
 
    cont: inteiro
    valor: real
 
 Inicio
-
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-
-
    cont<-1
-
+   escreva("Digite um valor: ")
+   leia (valor)
    para cont de 1 até 10 passo 1 faca
-
-            escreva("Digite um valor: ")
-
-            leia (valor)
             Escreva(valor," x ",cont," = ",valor*cont)
             Cont<-cont+1
-
-           fimenquanto
-
+           fimpara
 Fimalgoritmo
+</pre>
 
 *EM JAVA*
-
+<pre>
 import java.util.Scanner;
 
 public class QUESTAO8 {
@@ -51,4 +43,4 @@ public class QUESTAO8 {
 
     }
 }
-
+</pre>
